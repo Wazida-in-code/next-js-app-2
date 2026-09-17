@@ -6,7 +6,7 @@ const SearchFood = ({foodPromise}) => {
     // const data = await res.json()
     // const foods = data.data
 
-    const foods = use(foodPromise)
+    const foods = use(foodPromise).data
 
     return (
         <div>
